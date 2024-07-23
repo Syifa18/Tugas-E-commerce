@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #aeaeae;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #93a1b7;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: hwb(208 22% 72%) 3px solid;
+}
+
+header a {
+    color: #93a1b7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin-top: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a:hover {
+    color: #9112cc;
+}
+
+/* Showcase Section */
+#showcase {
+    min-height: 400px;
+    background: url(https://img.freepik.com/free-photo/laptop-near-smartphone-digital-devices-shopping-trolley_23-2147957579.jpg?size=626&ext=jpg&ga=GA1.2.709584293.1721722967&semt=ais_user) no-repeat center center/cover;
+    text-align: center;
+    color: #343e4f;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+#showcase p {
+    font-size: 1.5em;
+}
+
+/* Products Section */
+#products {
+    padding: 50px 0;
+}
+
+.product-item {
+    float: left;
+    width: 30%;
+    margin: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(40, 43, 45);
+    padding: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    border-bottom: 1px solid #b73e3e;
+    padding-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 1.5em;
+    color: rgb(40, 43, 45);
+}
+
+.product-item button {
+    background: #bb8fcb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.product-item button:hover {
+    background: #5f6bc7;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
